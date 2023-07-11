@@ -7,8 +7,43 @@
 header img{
   padding: 20px;
   vertical-align: center;
+  height: 100px;
 }
 
-header span{
-  margin: ;
+header strong{
+  line-height: center;
+  font-size: 2rem;
+}
+
+main{
+  background-color: #F6F8F9;
+  padding-top: 20px;
+}
+
+.container{
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.add{
+  padding: 30px;
+  border-bottom: 1px solid #F6F8F9;
+}
+
+.check{
+  color: green;
+  border-radius: 50%;
+  border: 1px solid green;
+  padding: 5px;
+  font-size: .8rem;
+}
+
+.tag-1{
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  background-color: #45ABEA;
 }
