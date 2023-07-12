@@ -4,48 +4,60 @@
   box-sizing: border-box;
 }
 
-header img{
-  padding: 20px;
-  vertical-align: center;
-  height: 100px;
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header strong{
-  line-height: center;
-  font-size: 2rem;
+header{
+  height: 70px;
+  padding: 10px 20px;
+}
+
+header img{
+  vertical-align: middle;
+}
+
+header .logo{
+  font-weight: 800;
+  font-size: 40px;
+  vertical-align: middle;
 }
 
 main{
   background-color: #F6F8F9;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .container{
   background-color: white;
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 4px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
 }
 
 .add{
-  padding: 40px;
-  border-bottom: 1px solid #F6F8F9;
+  padding: 20px 40px;
+  border-bottom: 2px solid #F6F8F9;
 }
 
 .add-1{
-  display: inline;
+  border: none;
   padding: 10px;
   border-radius: 10px;
   background-color: #45ABEA;
+  border: 1px solid #45ABEA;
   color: white;
+  cursor: pointer;
 }
 
 .add-2{
-  display: inline;
+  border: none;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid grey;
-  color: grey;
+  border: 1px solid lightgrey;
+  background-color: white;
+  color: lightgray;
+  cursor: pointer;
 }
 
 .item{
@@ -54,62 +66,91 @@ main{
 }
 
 .check{
-  display: inline;
+  font-weight: bold;
+  display: inline-block;
   color: green;
   border-radius: 50%;
   border: 1px solid green;
-  padding: 4px;
-  margin: 5px;
-  font-size: .8rem;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: .5rem;
 }
 
 .cross{
-  display: inline;
+  font-weight: bold;
+  display: inline-block;
   color: red;
   border-radius: 50%;
   border: 1px solid red;
-  padding: 4px;
-  margin: 5px;
-  font-size: .8rem;
-
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: .5rem;
 }
 
 li{
-  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 ul ul li{
+  font-weight: 500;
   font-size: .9rem;
 }
 
 .tag-1{
-  display: inline;
-  padding: 10px;
+  display: inline-block;
+  padding: 5px;
   border-radius: 15px;
   font-size: 0.7rem;
   background-color: #45ABEA;
+  color: white;
 }
 
 .tag-2{
-  display: inline;
-  padding: 10px;
+  display: inline-block;
+  padding: 5px;
   border-radius: 15px;
   font-size: 0.7rem;
   background-color: #9C72E4;
+  color: white;
 }
 
 .tag-3{
-  display: inline;
-  padding: 10px;
+  display: inline-block;
+  padding: 5px;
   border-radius: 15px;
   font-size: 0.7rem;
   background-color: #64C0A9;
+  color: white;
 }
 
 .tag-4{
-  display: inline;
-  padding: 8px;
+  display: inline-block;
+  padding: 5px;
   border-radius: 15px;
   font-size: 0.7rem;
   background-color: #F29E33;
+  color: white;
+}
+
+.tag-5{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  background-color: #D863A1;
+  color: white;
+}
+
+.tag-6{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  background-color: #B0C926;
+  color: white;
 }
